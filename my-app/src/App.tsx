@@ -14,9 +14,9 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>A React Project</h1>
+          <h1>My Summer Reads</h1>
           <p>
-            Here I am modifying the Vite + React template to create my own project.
+            I'm trying to create a basic React project. I thought of just sharing my summer reads as a starting point.
           </p>
         </div>
         
