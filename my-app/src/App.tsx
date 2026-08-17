@@ -48,13 +48,13 @@ function App() {
           </svg>
           <ul>
             <li>
-              <a href="">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/rishi-juneja-04824026a/">LinkedIn</a>
             </li>
             <li>
-              <a href="">GitHub</a>
+              <a href="https://github.com/rj-here">GitHub</a>
             </li>
             <li>
-              <a href="">Portfolio</a>
+              <a href="https://rj-here.github.io/personalpage/index.html">Portfolio</a>
             </li>
           </ul>
         </div>
