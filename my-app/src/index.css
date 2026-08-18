@@ -1,13 +1,13 @@
 :root {
-  --text: #7300ff;
-  --text-h: #08060d;
+  --text: #3a0080;
+  --text-h: #400bc7;
   --bg: #fff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
+  --accent-bg: rgb(102, 0, 180);
+  --accent-border: rgb(170, 59, 255);
+  --social-bg: rgb(242, 210, 0);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -32,15 +32,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
+    --text: #00399c;
+    --text-h: #e1ebff;
+    --bg: #9eddff;
     --border: #2e303a;
     --code-bg: #1f2028;
-    --accent: #6400c8;
-    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent: #0029f8;
+    --accent-bg: rgba(107, 0, 215, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
+    --social-bg: rgb(0, 13, 161);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
@@ -66,11 +66,16 @@ body {
   margin: 0;
 }
 
-h1,
+h1 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: rgb(21, 0, 159);
+}
+
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: rgb(98, 0, 178);
+  color: rgb(0, 67, 211);
 }
 
 h1 {
